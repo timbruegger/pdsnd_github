@@ -4,7 +4,9 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv',
+              'boston': 'boston.csv'
+            }
 
 months = ['january', 'february', 'march', 'april', 'may', 'june']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -19,6 +21,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hallo! Lass uns Daten von amerikanischen Bikesharing-Diensten erkunden.')
     #get user input for city (chicago, new york city, washington)
     while True:
         city = str(input("Which city would you like to view? Please select between Chicago, New York City, Washington:\n")).lower()
