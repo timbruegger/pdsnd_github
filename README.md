@@ -1,15 +1,18 @@
-### Date created
-Include the date you created this project and README file.
+Bikeshare project: created on 2020-04-15
+Readme: created on 2020-04-18
 
-### Project Title
-Replace the Project Title
+# Bikeshare Statistics
 
-### Description
-Describe what your project is about and what it does
+The bikeshare statistics program allows the user to display statistics from three bikeshare locations in 
+the US: New York City, Chicago or Washington.
+According to the filtering, a number of statistic evaluation is displayed.
 
-### Files used
-Include the files used
+### Files used:
+bikeshare_project_tim.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Code written by Tim Brügger, 2020.
+Templates and course material of Udacity have been used.
