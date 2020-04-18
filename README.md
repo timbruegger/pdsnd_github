@@ -13,6 +13,10 @@ chicago.csv
 new_york_city.csv  
 washington.csv  
 
+###Technical requirements
+Having python set up with a Data Science library  
+The easiest to do this is to use Anaconda
+
 ### Credits
 Code written by Tim Brügger, 2020.  
 Templates and course material of Udacity have been used.
